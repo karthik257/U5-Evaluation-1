@@ -17,8 +17,8 @@ class Square extends Rectangle {
   }
 }
 
-var rec = new Square(3, 5);
+const rec = new Square(3, 5);
 console.log(rec.getArea());
 
-var sq = new Square(6);
+const sq = new Square(6);
 console.log(sq.getPerimeter());
